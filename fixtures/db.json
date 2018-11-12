@@ -1,0 +1,48 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "animal": "White spoonbill"
+    },
+    {
+      "id": 2,
+      "animal": "Worm snake (unidentified)"
+    },
+    {
+      "id": 3,
+      "animal": "Sandpiper, spotted wood"
+    },
+    {
+      "id": 4,
+      "animal": "Currasow (unidentified)"
+    },
+    {
+      "id": 5,
+      "animal": "Honey badger"
+    },
+    {
+      "id": 6,
+      "animal": "Badger, european"
+    },
+    {
+      "id": 7,
+      "animal": "Lizard (unidentified)"
+    },
+    {
+      "id": 8,
+      "animal": "Darwin ground finch (unidentified)"
+    },
+    {
+      "id": 9,
+      "animal": "Loris, slender"
+    },
+    {
+      "id": 10,
+      "animal": "Southern sea lion"
+    },
+    {
+      "animal": "nhjkhb",
+      "id": 11
+    }
+  ]
+}
