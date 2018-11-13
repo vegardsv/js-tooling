@@ -43,6 +43,18 @@
     {
       "animal": "nhjkhb",
       "id": 11
+    },
+    {
+      "animal": "cat",
+      "id": 12
+    },
+    {
+      "animal": "dog",
+      "id": 13
+    },
+    {
+      "animal": "Hest",
+      "id": 14
     }
   ]
 }

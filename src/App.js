@@ -23,6 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         <form
+          id="animal-form"
           onSubmit={e => {
             e.preventDefault();
             fetch(`${process.env.REACT_APP_API_URL}/animals`, {
@@ -44,16 +45,21 @@ class App extends Component {
           }}
         >
           <input
+            id="animal-form__input"
+            className="animal-form__input"
             type="text"
             value={this.state.input}
             onChange={e => this.setState({ input: e.target.value })}
           />
-          <input type="submit" value="+" />
+          <input id="animal-form-submit" type="submit" value="+" />
         </form>
 
-        <ul>
+        <ul className="animal-list">
           {this.state.animals.map(({ id, animal }) => (
-            <li key={id}>{animal}</li>
+            <li className="animal-list__item" key={id}>
+              {animal}
+              <button> Slett </button>
+            </li>
           ))}
         </ul>
       </div>
